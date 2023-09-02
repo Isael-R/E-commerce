@@ -22,5 +22,9 @@ Banco de dados modelos/tabelas:
 Formulario para cadastro de usuario utilizei o padrão do Django, validação desse formualrio tambem a padrão do django.
 
 Utilização javascript:
-- Pegar informação dos pedidos de compra e atualizar a quantidade no carrinho
-- Para enviar informação da compra para o backend utilizando metodo post e o formato json
+- Pegar informação dos produto e quantidade e enviar para url update_item/ aonde eu fazia a validação no backend para atualizar a quantidade e o produto no carrinho
+- Para processar a order do pedido de compra e eviar para url process_order/ aonde validei esse pedido no backend
+
+Api Utilizadas:
+- Utililizei a Api da Paypal para forma de pagamento
+
